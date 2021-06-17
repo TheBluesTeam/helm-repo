@@ -3,23 +3,34 @@ entries:
   apache-test:
   - apiVersion: v2
     appVersion: 1.00.0
-    created: "2021-06-17T14:47:11.373306972+09:00"
+    created: "2021-06-17T15:23:32.292173265+09:00"
     description: A Helm chart for Kubernetes
     digest: 9d19507eee0d1ba37c15f849dba24809a1463f6a14e2e3b2d9ea5b27f0b558e5
     name: apache-test
     type: application
     urls:
-    - https://thebluesteam.github.io/helm-repo/stable/apache-test-0.1.0.tgz
+    - apache-test-0.1.0.tgz
+    version: 0.1.0
+  nfs-stor:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2021-06-17T15:23:32.294343216+09:00"
+    description: A Helm chart for Kubernetes
+    digest: 7999bba5168dbbb7bdad16bb8e4cab9376c2373bd4056a29611a4904568b69e1
+    name: nfs-stor
+    type: application
+    urls:
+    - nfs-stor-0.1.0.tgz
     version: 0.1.0
   nginx-test:
   - apiVersion: v2
     appVersion: 1.00.0
-    created: "2021-06-17T14:47:11.374470359+09:00"
+    created: "2021-06-17T15:23:32.294884091+09:00"
     description: A Helm chart for Kubernetes
     digest: fa6986fb01cf6d690b806d7711459d6f49f0c7676f3f3ed7909df5b02f24e752
     name: nginx-test
     type: application
     urls:
-    - https://thebluesteam.github.io/helm-repo/stable/nginx-test-0.1.0.tgz
+    - nginx-test-0.1.0.tgz
     version: 0.1.0
-generated: "2021-06-17T14:47:11.371355002+09:00"
+generated: "2021-06-17T15:23:32.290101614+09:00"
